@@ -22,6 +22,12 @@ img {
   vertical-align: middle;
 }
 
+section {
+  width: 100%;
+  padding: 62px 0;
+  text-align: center;
+}
+
 .container {
   width: 1200px;
   margin-right: auto;
@@ -119,7 +125,7 @@ li:last-child {
 main {
   padding-top: 98px;
   background-color: blue;
-  overflow: auto;
+  overflow: hidden;
 }
 
 h1 {
@@ -135,14 +141,14 @@ h2 {
   line-height: 1;
 }
 
+h4 {
+  margin: 21px 0;
+}
+
 #home {
-  width: 100%;
-  position: relative;
   background-image: url('../assets/images/bg-home.jpg');
   background-size: cover;
   color: #fff;
-  text-align: center;
-  padding: 62px 0;
 }
 
 #home p {
@@ -158,6 +164,41 @@ h2 {
   color: #fff;
   padding: 18px 20px;
   line-height: 1;
+}
+
+#services {
+  background-color: #f17c72;
+  color: #fff;
+}
+
+#services h2 {
+  font-size: 35px;
+  letter-spacing: 2px;
+  margin-bottom: 45px;
+}
+
+#services p {
+  line-height: 1;
+}
+
+.box-service {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.box-service div {
+  float:left;
+  width: 200px;
+  padding-top: 65px;
+  margin-right: 155px;
+}
+
+.box-service div:last-child {
+  margin-right: 0;
+}
+
+.box-service img {
+  width: 100%;
 }
 
 footer {
