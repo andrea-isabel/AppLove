@@ -20,11 +20,12 @@ body {
 
 img {
   vertical-align: middle;
+  width: 100%;
 }
 
 section {
   width: 100%;
-  padding: 62px 0;
+  padding: 65px 0 62px;
   text-align: center;
 }
 
@@ -124,7 +125,7 @@ li:last-child {
 
 main {
   padding-top: 98px;
-  background-color: blue;
+  /* background-color: blue; */
   overflow: hidden;
 }
 
@@ -136,9 +137,11 @@ h1 {
 }
 
 h2 {
-  margin: 20px 0;
+  margin: 20px 0 45px;
   font-weight: 700;
   line-height: 1;
+  font-size: 35px;
+  letter-spacing: 2px;
 }
 
 h4 {
@@ -149,6 +152,12 @@ h4 {
   background-image: url('../assets/images/bg-home.jpg');
   background-size: cover;
   color: #fff;
+}
+
+#home h2 {
+  margin-top: 16px;
+  font-size: 24px;
+  letter-spacing: 0;
 }
 
 #home p {
@@ -171,19 +180,8 @@ h4 {
   color: #fff;
 }
 
-#services h2 {
-  font-size: 35px;
-  letter-spacing: 2px;
-  margin-bottom: 45px;
-}
-
-#services p {
-  line-height: 1;
-}
-
 .box-service {
   display: inline-block;
-  overflow: hidden;
 }
 
 .box-service div {
@@ -197,8 +195,35 @@ h4 {
   margin-right: 0;
 }
 
-.box-service img {
-  width: 100%;
+#work {
+  padding-bottom: 112px;
+}
+
+#work figure {
+  width: 900px;
+  display: inline-block;
+  padding-top: 28px;
+}
+
+.grid {
+  overflow: auto;
+  font-weight: 700;
+  padding: 22px 5% 0;
+}
+
+.grid div {
+  width: 300px;
+  float: left;
+  margin-right: 72px;
+  margin-bottom: 65px;
+}
+
+.grid div:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.grid div:nth-last-of-type(-n+3) {
+  margin-bottom: 0;
 }
 
 footer {
