@@ -3,6 +3,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 *:before, *:after {
@@ -69,5 +70,99 @@ a:hover {
   text-transform: uppercase;
 }
 
-/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+/*CLASES ESPECÍFICAS*/
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  font-weight: bold;
+}
 
+.box-header {
+  width: 98px;
+  height: 98px;
+  margin-right: 36px;
+  padding: 14px;
+  float: right;
+}
+
+.logo {
+  width: 100%;
+}
+
+nav {
+  float: left;
+  margin-left: 175px;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+li {
+  float: left;
+  margin-right: 48px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+main {
+  padding-top: 98px;
+  background-color: blue;
+  overflow: auto;
+}
+
+h1 {
+  margin-top: 72px;
+  margin-bottom: 20px;
+  font-size: 54px;
+  line-height: 1;
+}
+
+h2 {
+  margin: 20px 0;
+  font-weight: 700;
+  line-height: 1;
+}
+
+#home {
+  width: 100%;
+  position: relative;
+  background-image: url('../assets/images/bg-home.jpg');
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 62px 0;
+}
+
+#home p {
+  font-weight: 300;
+  margin: 10px auto;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 70px;
+  margin-bottom: 75px;
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 18px 20px;
+  line-height: 1;
+}
+
+footer {
+  background-color: #373b47;
+  color: #fff;
+  text-align: center;
+  line-height: 70px;
+}
