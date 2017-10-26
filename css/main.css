@@ -124,7 +124,7 @@ li:last-child {
 }
 
 main {
-  padding-top: 98px;
+  margin-top: 98px;
   /* background-color: blue; */
   overflow: hidden;
 }
@@ -150,6 +150,7 @@ h4 {
 
 #home {
   background-image: url('../assets/images/bg-home.jpg');
+  height: calc(100vh - 98px);
   background-size: cover;
   color: #fff;
 }
@@ -168,7 +169,6 @@ h4 {
 .btn {
   display: inline-block;
   margin-top: 70px;
-  margin-bottom: 75px;
   background-color: #2ecc71;
   color: #fff;
   padding: 18px 20px;
